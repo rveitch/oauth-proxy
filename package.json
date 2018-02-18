@@ -1,0 +1,28 @@
+{
+  "name": "node-project-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Veitch",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "cors": "2.8.4",
+    "dotenv": "4.0.0",
+    "express": "4.15.2",
+    "express-subdomain": "1.0.5",
+    "express-subdomain-router": "1.0.3",
+    "lodash": "4.17.4",
+    "request": "2.81.0",
+    "serve-favicon": "2.4.2"
+  },
+  "devDependencies": {
+    "eslint": "4.13.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.8.0"
+  }
+}
